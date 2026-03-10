@@ -1,7 +1,26 @@
-OctoAcme’s project management processes are built on principles of customer-first delivery, iterative improvement, clear ownership, and data-informed decisions. Every project, regardless of scope, begins with a structured initiation phase to secure stakeholder alignment and clarify measurable outcomes. Roles are clearly defined, with the Project Manager (PM) coordinating schedules, risks, and communication, the Product Manager (PdM) focusing on outcome definition and prioritization, and Developers driving feature implementation and quality. The process emphasizes lightweight planning—using one-pagers and high-level roadmaps—before work commences, ensuring teams are mobilized only once business value and resource commitments are understood.
+# OctoAcme Project Management Documentation
 
-Key workflows revolve around a project lifecycle comprising initiation, planning, execution, release, and retrospective phases. During planning, actionable backlogs are created with prioritized items, acceptance criteria, and clear owners. Workflows are managed on project boards with explicit status columns, and delivery unfolds in shippable increments, supported by predictable ceremonies: daily standups, weekly delivery syncs, and milestone-based demos or reviews. Risks are proactively managed and communicated, tracked via a live risk register, and escalated through documented paths that range from team triage to sponsor-level intervention.
+Welcome! This README provides a central starting point to understand how OctoAcme manages projects and gives you quick access to all process documentation.
 
-Strong communication practices underpin the entire model. Project health and decisions are regularly communicated through weekly syncs, monthly updates to stakeholders, and ad-hoc escalation channels. Artifacts such as retrospective notes, risk registers, and status updates provide a single source of truth for team members and stakeholders alike. Each core persona—Developers, PMs, PdMs—has clear responsibilities for maintaining these artifacts and contributing to transparent, timely dialogue.
+## Project Management Process Summary
 
-Quality assurance is embedded throughout the lifecycle. New code contributions go through automated tests and linting in CI, with requirements for manual QA and end-to-end smoke tests on critical flows before release. Security scans and a controlled release checklist ensure that only robust, well-documented functionality reaches production. Post-release, incidents trigger a clear rollback and communication playbook, with lessons captured in retrospectives and fed back into continuous improvement cycles. This systematic yet lightweight approach enables OctoAcme to deliver customer-focused outcomes, minimize risk, and foster a culture of learning and accountability.
+OctoAcme’s project management is guided by customer-first delivery, clear roles, iterative progress, and data-informed decisions. Each project begins with a structured initiation, using one-pagers and high-level roadmaps to secure alignment on outcomes and resources. The Project Manager drives execution and communication, while the Product Manager focuses on defining outcomes and the prioritized backlog, and Developers deliver features with quality in mind.
+
+Workflows progress from initiation and planning through execution, release, and retrospectives. Planning involves detailed backlogs, acceptance criteria, and risk assessments. Projects are managed using project boards with clear status columns. Team rhythm includes daily standups, weekly delivery syncs, and milestone reviews, ensuring transparency and adaptability throughout the lifecycle. Risks are captured early and escalated through documented paths when needed.
+
+Open communication is a core principle, with health updates, regular stakeholder syncs, and living artifacts such as risk registers and retrospective notes providing a single source of truth. Each persona maintains responsibility for communicating status and updates.
+
+Quality assurance runs throughout the project lifecycle, featuring automated tests, manual QA, CI/CD gates, and robust release checklists. Incidents prompt fast rollback and transparent communication, with learnings captured and fed back into continuous improvement cycles. This approach supports consistent, customer-driven outcomes and fosters a culture of iteration and shared ownership.
+
+## Process Documents
+
+- [Project Management Overview](./octoacme-project-management-overview.md)
+- [Project Initiation Guide](./octoacme-project-initiation.md)
+- [Project Planning](./octoacme-project-planning.md)
+- [Execution & Tracking](./octoacme-execution-and-tracking.md)
+- [Risk Management & Communication](./octoacme-risks-and-communication.md)
+- [Release & Deployment Guide](./octoacme-release-and-deployment.md)
+- [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)
+- [Roles and Personas](./octoacme-roles-and-personas.md)
+
+Please refer to these documents for detailed phase- or artifact-specific guidance.
